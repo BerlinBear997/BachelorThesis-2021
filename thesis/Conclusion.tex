@@ -1,0 +1,5 @@
+\chapter{Conclusion}
+
+In this work, I studied the architecture of the microprocessor and explored the impact of uncore frequency on PKG power, DRAM power and bandwidth. I explored how to use the Roofline model to characterise the performance bottleneck on  processors. The extended Roofline model is developed. It combines the traditional Roofline with time interval analysis to detect the transfer delay and optimizes the performance by dynamically modifying the core and uncore frequencies. In situations that do not have a power cap, it saves up to 13\% PKG power and 9.4\% PKG energy. The slowdown varies from 2\% to 6.5\% compared to the default. In situations that have strict power constraints, it saves up to 8.9\% energy and achieves in best case 6.2\% speedup compared to the default.
+
+The improvement on the overhead reduction is a possible future work. This work implements the extended Roofline via the time sampling method. Other sampling approaches such as sampling by instruction is also a possible future study. 
